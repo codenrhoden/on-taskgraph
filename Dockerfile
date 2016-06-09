@@ -1,6 +1,6 @@
 # Copyright 2016, EMC, Inc.
 
-FROM rackhd/on-core
+FROM emccode/on-core
 
 COPY . /RackHD/on-taskgraph/
 WORKDIR /RackHD/on-taskgraph
